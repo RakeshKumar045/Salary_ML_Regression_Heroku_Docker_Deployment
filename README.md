@@ -21,6 +21,10 @@
 
 - python app.py
 
+## Check Demo:
+
+<https://salary-ml-predict-heroku.herokuapp.com/>
+
 ### Input :
 
 ![Image input](./output_photo/input.png "epidemiological model")
