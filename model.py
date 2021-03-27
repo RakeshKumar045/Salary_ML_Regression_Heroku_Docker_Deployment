@@ -34,8 +34,8 @@ regressor = LinearRegression()
 regressor.fit(X, y)
 
 # Saving model to disk
-pickle.dump(regressor, open('model.pkl', 'wb'))
+pickle.dump(regressor, open('salary_prediction_model.pkl', 'wb'))
 
 # Loading model to compare the results
-model = pickle.load(open('model.pkl', 'rb'))
+model = pickle.load(open('salary_prediction_model.pkl', 'rb'))
 print(model.predict([[2, 9, 6]]))
