@@ -45,7 +45,7 @@ https://github.com/RakeshKumar045?tab=repositories
 
 #### 2nd way deploy application on heroku using Heroku CLI:
 
-# Heroku cLI steps:
+## Deployment through Heroku CLI steps:
 
 heroku login
 
