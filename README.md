@@ -49,20 +49,36 @@ https://github.com/RakeshKumar045?tab=repositories
 
 heroku login
 
-heroku git:clone -a salary-use-heroku-cli-terminal cd salary-use-heroku-cli-terminal
+heroku git:clone -a salary-use-heroku-cli-terminal
+
+cd salary-use-heroku-cli-terminal
 
 OR
 
-git init heroku git:remote -a salary-use-heroku-cli-terminal
+git init heroku
+
+git:remote -a salary-use-heroku-cli-terminal
 
 git add . git commit -am "make it better"
+
 git push heroku master
 
 heroku open #check application has deployed successfully & expose the url to
 
 #### Heroku Extra command:
 
-heroku create # heroku create empty app on heroku git remote -v heroku logs --tail heroku ps heroku local heroku config
+heroku create # heroku create empty app on heroku
+
+git remote -v
+
+heroku logs --tail
+
+heroku ps
+
+heroku local
+
+heroku config
+
 heroku pg:psql # use for DB(PostgreSQL)
 
 ## Thank you for reaching out to me on Github. 
