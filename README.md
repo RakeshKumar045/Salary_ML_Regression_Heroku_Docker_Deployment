@@ -59,7 +59,9 @@ git init
 
 heroku git:remote -a salary-use-heroku-cli-terminal
 
-git add . git commit -am "make it better"
+git add .
+
+git commit -am "make it better"
 
 git push heroku master
 
